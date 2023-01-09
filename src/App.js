@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+
+
+import Navigation from './Components/Navigation/Navigation';
+import SearchForm from './Components/SearchForm/SearchForm';
+import UserDash from './Components/UserDash/UserDash';
+import ProductCard from './Components/ProductCard/ProductCard';
+import ParticlesBg from 'particles-bg'
+
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <ParticlesBg type="cobweb" bg={true} />
+      <Navigation />
+       <SearchForm />
+       <UserDash />
+       <ProductCard />
+
+
+
+     {/*  <Home />
+      <Travel />
+      <Product />
+      <UserSearchHistory />
+  <Footer />*/}
+
+
+   </div>
   );
 }
 
