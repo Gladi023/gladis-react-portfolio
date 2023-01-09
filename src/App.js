@@ -7,6 +7,7 @@ import ProductCard from './Components/ProductCard/ProductCard';
 import ParticlesBg from 'particles-bg'
 
 
+
 import './App.css';
 
 
