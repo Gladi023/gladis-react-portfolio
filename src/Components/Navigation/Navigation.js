@@ -5,6 +5,12 @@ const Navigation = () => {
         <div>
         <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
 
+     <p className='f3 link dim white underline pa3 pointer'>
+        <a href='#about-me'>About Me</a>
+        </p>
+        <p className='f3 link dim white underline pa3 pointer'>
+        <a href='#my-work'>My Work</a>
+        </p>
         <p className='f3 link dim white underline pa3 pointer'>
         <a href='https://docs.google.com/document/d/1LDEhNjSa_CoCGwZdnfvUGe0di8Ik_9t7XFyBk2lbvvI/edit?usp=sharing'>Resume</a>
         </p>
