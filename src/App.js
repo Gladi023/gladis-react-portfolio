@@ -16,8 +16,8 @@ function App() {
     <div className="App">
    <ParticlesBg type="cobweb" bg={true} />
       <Navigation />
+      <UserDash />
        <SearchForm />
-       <UserDash />
        <ProductCard />
 
 
